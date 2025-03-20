@@ -1,0 +1,620 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GioFolio</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <section id="nav-bar">
+      <nav class="navbar navbar-expand-lg navabar-light>
+          <a class="navbar-brand" href="#"
+            ><img src="images/logoo.png">
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#top">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#my-projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+            </ul>
+          </div>
+       
+      </nav>
+    </section>
+
+
+
+    <!--  Banner section-->
+
+    <section id="banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <p class="my-title">Gio! is here to be your assistant</p>
+        <p class="lead">
+          As a Virtual Assistant, I specialize in streamlining tasks, managing CRMs, and optimizing workflows to help businesses run smoothly. Whether it’s email management, scheduling, data entry, or customer support, I ensure efficiency and organization every step of the way. With a tech-savvy approach, I leverage tools and automation to enhance productivity. Let’s work together to make your business operations seamless and stress-free!
+        </p>
+        <p class="d-inline-flex gap-1">
+          <a class="btn btn-custom" data-bs-toggle="collapse" href="#softSkillsCollapse" role="button" aria-expanded="false" aria-controls="softSkillsCollapse">
+            Soft Skills
+          </a>
+          <button class="btn btn-custom" type="button" data-bs-toggle="collapse" data-bs-target="#techSkillsCollapse" aria-expanded="false" aria-controls="techSkillsCollapse">
+            Technical Skills
+          </button>
+        </p>
+        
+        <!-- Soft Skills Collapse Section -->
+        <div class="collapse" id="softSkillsCollapse">
+          <div class="card card-body">
+            <strong>Soft Skills:</strong>
+            <ul>
+              <li>Communication – Effectively interacts with clients and team members to ensure clear and concise information exchange.</li>
+              <li>Time Management – Balances multiple tasks efficiently while meeting deadlines.</li>
+              <li>Problem-Solving – Quickly identifies and resolves issues in administrative and technical tasks.</li>
+              <li>Attention to Detail – Ensures accuracy in data entry, CRM updates, and customer interactions.</li>
+              <li>Adaptability – Quickly learns new tools and technologies to enhance productivity.</li>
+              <li>Customer Service – Provides professional support through live chat, email, and follow-ups.</li>
+              <li>Organization – Maintains well-structured records, schedules, and project details.</li>
+              <li>Proactiveness – Anticipates business needs and suggests improvements for workflow optimization.</li>
+            </ul>
+          </div>
+          
+        </div>
+        
+        <!-- Technical Skills Collapse Section -->
+        <div class="collapse" id="techSkillsCollapse">
+          <div class="card card-body">
+            <strong>Technical Skills:</strong>
+            <ul>
+              <li>CRM Management – Experienced in handling customer relationships using platforms like HubSpot and GoHighLevel.</li>
+              <li>Web Development – Knowledgeable in HTML, CSS, and JavaScript, ensuring responsive and user-friendly designs.</li>
+              <li>CSS Frameworks – Skilled in Bootstrap, Tailwind CSS, and Pure CSS for efficient styling.</li>
+              <li>JavaScript Frameworks – Basic experience with Angular and Vue.js for front-end development.</li>
+              <li>Version Control – Proficient in Git and GitHub for tracking code changes and collaboration.</li>
+              <li>Basic Content Creation – Designs marketing and branding materials using Canva and CapCut.</li>
+              <li>Client Relationship Management – Conducts follow-ups and customer interactions for business growth.</li>
+              <li>Live Chat & Support – Provides real-time assistance for customers through digital platforms.</li>
+              <li>Cross-Browser Compatibility – Ensures website functionality across different browsers and devices.</li>
+              <li>Mobile-First Design – Develops layouts that work seamlessly on smartphones and tablets.</li>
+            </ul>
+          </div>
+          
+        </div>
+        </div>
+        
+        <div class="col-md-6">
+          <img src="images/home2.png" class ="img-fluid">
+      </div>
+     
+
+
+      </div>
+      </div>
+  </div>
+  <img src="images/wave1.png" class = "bottom-img">
+
+    </section>
+
+    <!--       Workflow -->
+<section id="About">
+<div class="container text-center">
+  <h1 class="title">Details About me?</h1>
+
+  <div class="row text-center">
+
+    <div class="col-md-4">
+      <img src="images/coaching.png" 
+           class="About-img" 
+           style="cursor: pointer;" 
+           data-bs-toggle="popover" 
+           data-bs-trigger="focus" 
+           title="Hello!" 
+           data-bs-content="I specialize in providing seamless administrative support, helping businesses and entrepreneurs stay 
+           organized and focused on what truly matters. From scheduling appointments, email management, and data entry to customer support and CRM management,
+            I handle the tasks that keep your operations running smoothly."
+           tabindex="0"> <!-- tabindex is needed for popover to work -->
+  
+      <h4>Introductions</h4>
+      <p>Hey! Get to know me</p>
+  </div>
+  
+    
+    <div class="col-md-4">
+      <img src="images/cv.png" class="About-img" data-toggle="modal" data-target="#pdfModal" data-pdf="images/resume.pdf" style="cursor: pointer;">
+      <h4>Resume</h4>
+      <p>I have a background in Information Technology, with skills in web development, software troubleshooting, and workflow automation.</p>
+    </div>
+    
+    <!-- Workflow Section -->
+    <div class="col-md-4">
+      <img src="images/workflow.png" class="About-img" data-toggle="modal" data-target="#pdfModal" data-pdf="images/worflow.pdf" style="cursor: pointer;">
+      <h4>Workflow</h4>
+      <p>I manage appointments, handle client communications, and streamline workflows to keep businesses organized and running smoothly.</p>
+    </div>
+    
+    <!-- Bootstrap 4 Fullscreen Modal -->
+    <div class="modal fade" id="pdfModal" tabindex="-1" role="dialog" aria-labelledby="pdfModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="pdfModalLabel"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <iframe id="pdfFrame" src="" width="100%" height="800px" style="border: none;"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<!--                                                             Projects                                  -->
+<section id="my-projects">
+<div class="container">
+<h1 class="title text-center"> How do i work? </h1>
+
+<div class="row justify-content-center gap-4">
+ 
+
+  <div class="col-md-8">
+<!-- project 1-->
+ <div class="card shadow-sm">
+  <img src="images/contacts/0.png" class="card-img-top" alt="Project 1 Screenshot"
+       data-bs-toggle="modal" data-bs-target="#modal1" style="cursor: pointer;">
+  <div class="card-body">
+      <h5 class="card-title">Exports Leads Data from the prospecting Workspace</h5>
+      <p class="card-text">I believe without the export option my team and I might opt out of using the Prospecting/Leads feature, even though we see a lot of value in it.</p>
+  </div>
+</div>
+ 
+<!-- Carousel inside the project 3-->
+<div class="modal fade" id="modal1" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+    
+      <div class="modal-header">
+        <h5 class="modal-title">Exports Leads Data from the prospecting Workspace</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body text-center">
+        <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/contacts/0.png" class="d-block mx-auto" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/contacts/1.png" class="d-block mx-auto" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/contacts/2.png" class="d-block mx-auto" alt=" ">
+            </div>
+            <div class="carousel-item">
+              <img src="images/contacts/3.png" class="d-block mx-auto" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/contacts/4.png" class="d-block mx-auto" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/contacts/5.png" class="d-block mx-auto" alt=""">
+            </div>
+            <div class="carousel-item">
+              <img src="images/contacts/6.png" class="d-block mx-auto" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/contacts/7.png" class="d-block mx-auto" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/contacts/8.png" class="d-block mx-auto" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/contacts/00.png" class="d-block mx-auto" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/contacts/11.png" class="d-block mx-auto" alt="">
+            </div>
+            
+            
+          </div>
+
+          
+          <a class="carousel-control-prev" href="#carousel1" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+          </a>
+          <a class="carousel-control-next" href="#carousel1" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="col-md-8">
+<!-- Project 2 -->
+
+  <div class="card shadow-sm">
+      <img src="images/leads/0.png" class="card-img-top" alt="Project 2 Screenshot"
+           data-bs-toggle="modal" data-bs-target="#modal2" style="cursor: pointer;">
+      <div class="card-body">
+          <h5 class="card-title">Leads generation and automation</h5>
+          <p class="card-text">This is how I do my leads generation using new leads tools and leads object in CRM Hubspot.</p>
+      </div>
+  </div>
+
+  <!-- Corousel indide the project 2-->
+  <div class="modal fade" id="modal2" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Leads generation and automation</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center">
+          <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/leads/0.png" class="d-block mx-auto" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="images/leads/1.png" class="d-block mx-auto" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="images/leads/2.png" class="d-block mx-auto" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="images/leads/3.png" class="d-block mx-auto" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="images/leads/4.png" class="d-block mx-auto" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="images/leads/5.png" class="d-block mx-auto" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="images/leads/6.png" class="d-block mx-auto" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="images/leads/7.png" class="d-block mx-auto" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="images/leads/8.png" class="d-block mx-auto" alt="">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel2" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#carousel2" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="col-md-8">
+<!-- Project 3 -->
+  <div class="card shadow-sm">
+    <img src="images/workflows/0.png" class="card-img-top" alt="Project 3 Screenshot"
+         data-bs-toggle="modal" data-bs-target="#modal3" style="cursor: pointer;">
+    <div class="card-body">
+        <h5 class="card-title">CRM automation and worflows</h5>
+        <p class="card-text">CRM automation & workflows save time by handling follow-ups, lead nurturing, task assignments, and reminders automatically, ensuring efficient, consistent,
+           and personalized communication to boost sales and customer engagement.</p>
+    </div>
+</div>
+
+<!-- Carousel inside the project 3-->
+<div class="modal fade" id="modal3" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">CRM automation and worflows</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/workflows/0.png" class="d-block mx-auto" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/workflows/11.png" class="d-block mx-auto" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/workflows/22.png" class="d-block mx-auto" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/workflows/33.png" class="d-block mx-auto" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/workflows/44.png" class="d-block mx-auto" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/workflows/55.png" class="d-block mx-auto" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/workflows/66.png" class="d-block mx-auto" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/workflows/77.png" class="d-block mx-auto" alt="">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carousel3" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+          </a>
+          <a class="carousel-control-next" href="#carousel3" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<div class="col-md-8">
+<!-- Project 4-->
+  <div class="card shadow-sm">
+    <img src="images/pipeline/00.png" class="card-img-top" alt="Project 4 Screenshot"
+         data-bs-toggle="modal" data-bs-target="#modal4" style="cursor: pointer;">
+    <div class="card-body">
+        <h5 class="card-title">Using pipelines and stages</h5>
+        <p class="card-text">CRM pipelines and stages help track leads and deals, showing their progress from new to closed, ensuring better
+           organization, follow-ups, and higher conversions. </p>
+    </div>
+</div>
+
+
+<!-- Carousel inside the project 4-->
+<div class="modal fade" id="modal4" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Using pipelines and stages</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <div id="carousel4" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/pipeline/00.png" class="d-block mx-auto" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/pipeline/11.png" class="d-block mx-auto" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/pipeline/22.png" class="d-block mx-auto" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/pipeline/33.png" class="d-block mx-auto" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/pipeline/44.png" class="d-block mx-auto" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/pipeline/55.png" class="d-block mx-auto" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/pipeline/66.png" class="d-block mx-auto" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/pipeline/77.png" class="d-block mx-auto" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/pipeline/88.png" class="d-block mx-auto" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/pipeline/99.png" class="d-block mx-auto" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/pipeline/10.png" class="d-block mx-auto" alt="">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carousel4" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+          </a>
+          <a class="carousel-control-next" href="#carousel4" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+  
+
+
+
+</div>
+
+</div>
+
+</section>
+  <!--                                                      end       Projects                                  -->                                          
+
+
+
+
+
+<!--  Testimonials section-->
+  <section id="testimonials">
+    <div class="container">
+     <h1 class="title text text-center"> What Client Say?</h1>
+     <div class="row offset-2">
+      <div class="col-md-5 testimonials">
+        <p>Absolute game-changer for my business. From managing my emails to scheduling appointments, everything runs smoothly. Highly recommend!</p>
+          <img src="images/t1.jpg" >
+          <p class="user-detail"><b>Lorraine Joy S. Herrera</b><br>Small Business Owner</p>
+
+
+      </div>
+      <div class="col-md-5 testimonials">
+        <p>Your ability to handle multiple tasks while staying efficient is impressive that helped me manage projects, customer inquiries, and even social media scheduling!!! </p>
+          <img src="images/t3.jpg" >
+          <p class="user-detail"><b>Jeremi C. Alvarez</b><br>E-commerce Entrepreneur</p>
+
+
+      </div>
+    
+
+      </div>
+      <div class="row offset-2">
+        <div class="col-md-5 testimonials">
+          <p>You handle my emails and scheduling efficiently, but he also keeps my website updated and running smoothly.</p>
+            <img src="images/t4.jpg" >
+            <p class="user-detail"><b>Eugene Lozada</b><br>Online Store Owner</p>
+  
+  
+        </div>
+        <div class="col-md-5 testimonials">
+          <p>Manages my appointments, responds to client inquiries, and keeps track of important tasks.Incredibly organized " </p>
+            <img src="images/t5.jpg" >
+            <p class="user-detail"><b>Jean Cesar</b><br>Business Coach</p>
+  
+  
+        </div>
+      
+  
+        </div>
+      
+     </div>
+    
+    
+    
+
+  </section>
+
+
+  <!--  Socia Media Sections-->
+ 
+
+
+
+
+
+<section id="soc-med">
+  <div class="container text-center">
+<p> Find me on social media </p>
+<div class="social-icons">
+  <a href="https://web.facebook.com/geomar.dalaoyan.9/" target="_blank" rel="noopener noreferrer">
+    <img src="images/facebook-icon.png" alt="Facebook Profile" class="social-icon">
+</a>
+<a href="https://www.instagram.com/giyoosphere/" target="_blank" rel="noopener noreferrer">
+    <img src="images/instagram-icon.png" alt="Instagram Profile" class="social-icon">
+</a>
+ <!-- <a href="https://web.facebook.com/geomar.dalaoyan.9/" target="_blank" rel="noopener noreferrer">
+    <img src="images/snapchat-icon.png" alt="Facebook Profile">
+  </a>
+  <a href="https://web.facebook.com/geomar.dalaoyan.9/" target="_blank" rel="noopener noreferrer">
+    <img src="images/whatsapp-icon.png" alt="Facebook Profile">
+  </a>
+  <a href="https://web.facebook.com/geomar.dalaoyan.9/" target="_blank" rel="noopener noreferrer">
+    <img src="images/twitter-icon.png" alt="Facebook Profile">
+  </a>
+ <a href="https://web.facebook.com/geomar.dalaoyan.9/" target="_blank" rel="noopener noreferrer">
+    <img src="images/linkedin-icon.png" alt="Facebook Profile">
+  </a>
+-->
+</div>
+
+  </div>
+</section>
+
+
+
+<!--Footer section-->
+
+<section id="footer">
+  <img src="images/wave2.png" class="footer-img">
+  <div class="container">
+<div class="row">
+
+  <div class="col-md-6 footer-box">
+    <img src="images/logoo.png">
+    <p>Helping businesses stay organized and efficient—one task at a time. Let’s connect!</p>
+  </div>
+
+  <div class="col-md-6 footer-box">
+    <p>
+      <b>Contact Us</b>
+
+    </p>
+    <p> <i class="fa fa-map-marker"></i>Brooke's Point, Palawan, Philippines</p>
+    <p>  <i class="fa fa-phone"></i>+63905-449-5498</p>
+    <p>  <i class="fa fa-envelope" ></i></i>giodalaoyan@gmail.com</p>
+     
+  </div>
+
+
+</div>
+<hr>
+<p class="copyright">Website crafted by: Geomar C. Dalaoyan</p>
+</div>
+
+</section>
+
+<!--smooth scroll-->
+<script src="smooth-scroll.js"></script>
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+</html>

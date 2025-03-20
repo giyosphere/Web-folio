@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar {
+  background-image: linear-gradient(to right, #ffffff, #ebebeb);
+  padding: 0 !important;
+}
+.navbar-brand img {
+  height: 10px;
+  padding-left: 10px;
+}
+.navbar-nav li {
+  padding: 0 10px;
+}
+.navbar-nav li a {
+  color: #030303 !important;
+  font-weight: 600;
+  float: right;
+  text-align: left;
+}
+.navbar-toggler {
+  outline: none !important;
+}
+
+/*        banner section      */
+
+#banner {
+  background-image: linear-gradient(to right, #ffffff, #ebebeb);
+  padding-top: 5%;
+}
+
+#banner a {
+  color: black;
+  text-decoration: none;
+}
+
+.my-title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 100 px;
+}
+
+.play-btn {
+  width: 45px;
+  margin: 20px;
+}
+.bottom-img {
+  width: 100%;
+}
+
+/*        Workflow Sections      */
+
+#About {
+  padding: 80px 0;
+}
+
+.About-img {
+  width: 100px;
+  margin-top: 20px;
+}
+.About {
+  padding: 20px;
+}
+
+.About h4 {
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+.title::before {
+  content: "";
+  background: rgb(173, 173, 173);
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(63px);
+}
+
+.title::after {
+  content: "";
+  background: rgb(221, 221, 221);
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translateY(8px);
+}
+
+/*     Projects section*/
+
+#my-projects {
+  background: #e6e6e6;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.project-title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 8%;
+}
+#my-projects ul li {
+  margin: 10px 0;
+}
+#my-projects ul {
+  margin-left: 10px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  transition: 0.3s ease-in-out;
+}
+
+/* testimonials section*/
+
+#testimonials {
+  background: #ffffff;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.testimonials {
+  border-left: 4px solid #ffc6c6;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.testimonials img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.user-detail {
+  display: inline-block;
+  font-size: 12px;
+}
+/* social med section*/
+
+#soc-med {
+  background: #f5f5f5;
+  padding: 100px 0;
+}
+#soc-med p {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.social-icons img {
+  width: 60px;
+  transition: 0.5s;
+}
+.social-icons a:hover img {
+  transform: translateY(-10px);
+}
+
+/*footer section*/
+#footer {
+  background-image: linear-gradient(to right, #ece8e8, #dad7d7);
+  color: #969696;
+}
+.footer-img {
+  width: 100%;
+}
+.footer-box {
+  padding: 20px;
+}
+.footer-box img {
+  width: 120px;
+  margin-bottom: 20px;
+}
+.footer-box .fa {
+  margin-right: 8px;
+  font-size: 25px;
+  width: 40px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 2px;
+  background-image: linear-gradient(to right, #dde4ee, #e5e8ec);
+}
+
+.footer-box .form-control {
+  box-shadow: none !important;
+  border: none;
+  border-radius: 0;
+  margin-top: 25px;
+  max-width: 250px;
+}
+.footer-box .btn-primary {
+  box-shadow: none !important;
+  border: none;
+  border-radius: 0;
+  margin-top: 25px;
+  max-width: 250px;
+  margin-top: 30px;
+  background-image: linear-gradient(to right, #4b90e2, #4b90e2);
+}
+
+hr {
+  background: #2e2e2e;
+}
+.copyright {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.circle-img {
+  border: 5px solid #000; /* Black stroke, change color if needed */
+  width: 150px; /* Fixed width */
+  height: 150px; /* Same as width for a perfect circle */
+  object-fit: cover; /* Ensures the image fills the circle properly */
+}
+.social-icon {
+  width: 60px; /* Adjust size */
+  height: auto; /* Keeps aspect ratio */
+  margin-right: 10px; /* Adds spacing */
+}
+
+.btn-custom {
+  background-color: #4b90e2 !important;
+  border-color: #4b90e2 !important;
+  color: white !important;
+}
+.btn-custom:hover {
+  background-color: #3a78c1 !important; /* Slightly darker on hover */
+  border-color: #3a78c1 !important;
+}
